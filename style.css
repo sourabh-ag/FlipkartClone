@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 170px;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #2874f0;
+  height: 10vh;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 20px;
+}
+
+nav ul li a {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  font-weight: bolder;
+  color: black;
+  cursor: pointer;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.search input {
+  height: 30px;
+  width: 30vw;
+  font-family: "Quicksand", sans-serif;
+}
+
+main {
+    background-color: #dbe0e8;
+    min-height: calc(100vh - 10vh - 5vh);
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.lines
+{
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+p:hover
+{
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.slider
+{   
+    background-color: white;    
+    overflow: scroll;
+}
+.slider-piece
+{
+    margin: 10px;
+}
+.slider-items
+{
+    width: 19vw;
+    display: flex;
+    flex-direction: row;
+}
+
+img:hover
+{
+    cursor: pointer;
+}
+footer {
+  height: 5vh;
+  font-family: "Quicksand", sans-serif;
+  text-decoration: none;
+}
